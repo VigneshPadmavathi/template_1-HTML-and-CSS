@@ -1,0 +1,826 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+body {
+  padding: 0%;
+  margin: 2%;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+}
+.navigation {
+  margin: 22px 98px 0px 500px;
+}
+.navigation a {
+  padding: 0 0 0 40px;
+  text-decoration: none;
+}
+.navbar-head {
+  margin: 0 0 0 10px;
+}
+.navigation-icons {
+  margin: 22px -50px 30px 120px;
+}
+.navigation-icons i {
+  padding: 0 0 0 10px;
+}
+.start {
+  margin: 18px auto 29px 85px;
+  padding: 3px;
+  background-color: rgba(255, 217, 0, 0.861);
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+.box1 {
+  display: flex;
+  background-color: rgba(255, 217, 0, 0.861);
+  margin: 12px 0 0 0;
+  width: 100%;
+  padding: 40px 50px 57px 0px;
+  border: 5px;
+  border-radius: 90px;
+}
+.box1-head {
+  font-size: 30px;
+  margin: 30px 0 0 43px;
+}
+
+.box1-p {
+  margin: 0px 0px 5px 0px;
+}
+.lnk {
+  width: 45%;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 20px;
+  font-size: 25px;
+}
+.lnk a {
+  text-decoration: none;
+  padding: 3px;
+}
+.box1-img {
+  margin: 0 0 0 auto;
+  width: 50%;
+}
+
+.box1-img img {
+  width: 100%;
+  
+}
+
+.box2 {
+  display: flex;
+  margin: 70px 0 0 0;
+  width: 100%;
+  height: 575px;
+}
+.smallbox {
+  background-color: rgba(55, 58, 59, 0.073);
+  border: 5px;
+  border-radius: 20px;
+  margin: 0px 60px 0px 0px;
+  width: 50%;
+  height: 600px;
+}
+.smallbox img {
+  width: 60%;
+}
+.shead {
+  margin: 0 0 0 50px;
+  font-size: 30px;
+}
+.simg {
+  margin: 0 0 0 50px;
+}
+.smlnks {
+  margin: 0 0 0 50px;
+  display: flex;
+  
+}
+.leftlnk {
+  padding: 14px 150px 30px 0px;
+}
+.leftlnk span {
+  background-color: rgba(255, 217, 0, 0.861);
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 20px;
+}
+.des {
+  margin-top: 5px;
+}
+.rightlnk {
+  margin: 70px 0px 30px 180px;
+  background-color: rgba(255, 217, 0, 0.861);
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 20px;
+}
+.rightlnk a {
+  text-decoration: none;
+  padding: 8px;
+  font-size: 18px;
+}
+.photo {
+  padding: 40px 0 0 0;
+}
+.photo span {
+  padding: 8px;
+
+}
+.group{
+    width: 50%;
+}
+.smallbox2 {
+  background-color: greenyellow;
+  border: 5px;
+  border-radius: 40px;
+  padding: 15px 0 40px 25px;
+  margin-bottom: 25px;
+}
+.smallbox2 p {
+  margin: 0px 10px 170px 0px;
+  font-size: 25px;
+}
+
+.smallbox2 a {
+  background-color: azure;
+  border: 2px solid;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.smallbox3 {
+  background-color: whitesmoke;
+  padding: 35px 0px 160px 25px;
+  border: 2px;
+  border-radius: 40px;
+  font-size: 25px;
+}
+.box3{
+    font-size: 30px;
+}
+.box4 {
+  width: 100%;
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+.illustration-tool {
+  width: 32%;
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 0 30px 0 33px;
+  border: 5px;
+  border-radius: 40px;
+  margin-right: 30px;
+}
+.illustration-tool img {
+  width: 400px;
+  height: 400px;
+}
+.kit {
+  text-align: center;
+}
+
+.illustration-tool h3 {
+  text-align: center;
+}
+
+.pr {
+  margin: -50px 0px 10px 320px;
+  font-size: 20px;
+}
+.ar {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.digital-art {
+  width: 32%;
+  background-color: rgba(55, 58, 59, 0.073);
+  border: 5px;
+  border-radius: 40px;
+  padding: 0 30px 0 33px;
+  margin-right: 28px;
+}
+
+.digital-art img {
+  width: 400px;
+  height: 400px;
+}
+.digital-art h3 {
+  text-align: center;
+}
+.pri {
+  margin: -60px 0px 18px 325px;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.print-design {
+  width: 32%;
+  background-color: greenyellow;
+  border: 5px;
+  border-radius: 40px;
+  padding: 0 30px 0 33px;
+}
+
+.print-design img {
+  width: 400px;
+  height: 400px;
+}
+
+.print-design h3 {
+  text-align: center;
+}
+.box5 {
+  width: 100%;
+  display: flex;
+}
+.skills {
+  width: 50%;
+}
+.bar {
+  width: 50%;
+  margin: 23px 0px 0px 0px;
+  line-height: 20px;
+}
+#design {
+  width: 100%;
+}
+.team {
+  width: 100%;
+  display: flex;
+  margin-bottom: -155px;
+}
+.team1 {
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 40px;
+  border: 10px;
+  border-radius: 100px;
+}
+.manager {
+  width: 32%;
+  margin: 0px 106px 160px 26px;
+  background-color: white;
+  padding-bottom: 12px;
+  border: 5px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.manager img {
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.white {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.white a {
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 8px;
+  font-size: 20px;
+}
+
+.box-heading {
+  text-align: center;
+}
+.box-img img {
+  width: 300px;
+  height: 300px;
+  margin-left: 585px;
+  border: 100px;
+  border-radius: 200px;
+}
+.box-para {
+  text-align: center;
+}
+.box-head {
+  text-align: center;
+}
+.box-foot {
+  text-align: center;
+}
+
+.box8 {
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 115px 0;
+  border: 10px;
+  border-radius: 30px;
+}
+
+.img-img {
+  background-color: white;
+  margin: 0 60px;
+  padding: 20px;
+  border: 10px;
+  border-radius: 30px;
+}
+.imh {
+  width: 1280px;
+  border: 10px;
+  border-radius: 30px;
+}
+
+.img2 {
+  padding: 10px;
+}
+.box-list {
+  display: flex;
+}
+.lin {
+  display: flex;
+  padding: 40px 290px 20px 20px;
+  font-size: 20px;
+}
+.shop {
+  margin-right: 80px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 25px;
+}
+.lin a {
+  padding: 8px;
+}
+
+.gstart {
+  margin: 40px 0px 0px 200px;
+  font-size: 20px;
+}
+
+.gstart a {
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 25px;
+  margin-right: 50px;
+  padding: 8px;
+}
+.box9 {
+  width: 100%;
+  display: flex;
+  padding: 60px 0;
+}
+.partner1 {
+  width: 33%;
+  background-color: rgba(55, 58, 59, 0.073);
+  margin-left: 30px;
+  text-align: center;
+  border: 5px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  height: 400px;
+}
+.partner1 img{
+  margin: 10px 0 0 0;
+}
+.partner1 a {
+  border: 2px solid;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+
+}
+.subscribe {
+  text-align: center;
+}
+.box10 {
+  display: flex;
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 40px 0px 40px 0px;
+  margin: 0 300px 0 300px;
+  border: 5px;
+  border-radius: 20px;
+}
+.box10 input {
+  width: 30%;
+  padding: 20px;
+  border: 2px;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+.subs{
+  margin: 18px 20px 0 40px;
+}
+.box10 a {
+  border: 2px solid;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 8px;
+}
+.contacts {
+  text-align: center;
+}
+.box11 {
+  width: 100%;
+  display: flex;
+}
+.phone {
+  width: 50%;
+}
+.phone-number {
+  display: flex;
+  width: 95%;
+  background-color: rgba(55, 58, 59, 0.073);
+  border: 5px;
+  border-radius: 40px;
+}
+.phone-icon {
+  margin: 4px 25px 0 30px;
+  font-size: 45px;
+  color: rgba(255, 217, 0, 0.861);
+}
+.number {
+  font-size: 25px;
+}
+.address {
+  display: flex;
+  width: 95%;
+  background-color: rgba(55, 58, 59, 0.073);
+  border: 5px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.address-icon {
+  margin: 4px 25px 0 30px;
+  font-size: 45px;
+  color: rgba(255, 217, 0, 0.861);
+}
+
+.address-area {
+  font-size: 25px;
+}
+.email {
+  width: 50%;
+  margin-left: 280px;
+}
+.mail {
+  display: flex;
+  width: 100%;
+  background-color: rgba(55, 58, 59, 0.073);
+  border-radius: 40px;
+}
+.mail-icon {
+  margin: 4px 25px 0 30px;
+  font-size: 45px;
+  color: rgba(255, 217, 0, 0.861);
+}
+.mail-address {
+  font-size: 25px;
+}
+.working-hour {
+  display: flex;
+  width: 100%;
+  background-color: rgba(55, 58, 59, 0.073);
+  border: 5px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.hours-icon {
+  margin: 4px 25px 0 30px;
+  font-size: 45px;
+  color: rgba(255, 217, 0, 0.861);
+}
+.hours {
+  font-size: 25px;
+}
+
+.map {
+  margin-top: 80px;
+}
+
+@media (min-width: 5px) and (max-width: 768px) {
+  .container-fluid{
+    position: relative;
+  }
+  .box1 {
+    display: block !important;
+  }
+  .navbar{
+    display: block;
+  }
+  .navigation{
+    margin: 0;
+  }
+  .navigation-icons{
+    margin:  30px 0 30px 150px;
+  }
+  .start{
+    margin: 0 125px 0 130px;
+  }
+  .box1-head{
+    font-size: 18px;
+  }
+  .box1-p{
+    margin: 0 0 0 0;
+  }
+  .box1-img {
+    width: 30vh;
+    margin: 30px 0px 0 70px;
+  }
+  
+  .lnk {
+    width: 58%;
+    padding: 2px;
+  }
+  .box2 {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    height: 125%;
+    width: 100%;
+  }
+  .smallbox {
+    margin: 8px 0px 0px 0px;
+    height: 390px;
+    width: 100%;
+  }
+  .rightlnk {
+    margin: 36px 19px 65px -104px;
+  }
+  .smallbox2 {
+    margin: 35px 0px 0 0;
+    width: 45vh;
+  }
+  .smallbox3{
+    margin-top: 35px;
+    width: 45vh;
+  }
+  .box4 {
+    display: block;
+    width: 90%;
+    margin-left: 16px;
+  }
+  .team1{
+    height: 190vh;
+  }
+  .illustration-tool {
+    width: 100%;
+    height: 430px;
+  }
+  .illustration-tool img {
+    width: 113%;
+    height: 280px;
+    margin: 0 0px 0 -20px;
+  }
+  .pr {
+    margin: -55px 0px 0px 240px;
+  }
+  .digital-art {
+    width: 100%;
+    height: 430px;
+  }
+  .digital-art img {
+    width: 112%;
+    height: 280px;
+    margin: 0 0px 0 -20px;
+  }
+  .pri {
+    margin: -60px 0px 0px 240px;
+  }
+  .print-design {
+    width: 100%;
+    height: 430px;
+  }
+  .print-design img {
+    width: 113%;
+    height: 280px;
+    margin: 0 0px 0 -20px;
+  }
+  .box5 {
+    display: block;
+  }
+  .skills {
+    width: 100%;
+  }
+  .bar {
+    width: 100%;
+  }
+
+  .team {
+    display: block;
+  }
+  .manager {
+    width: 98%;
+    margin: 0px 0 30px 0;
+  }
+  .manager img {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .box-img {
+    margin-left: -565px;
+  }
+  .box8 {
+    height: 500px;
+  }
+  .img-img {
+    height: 284px;
+    width: 350px;
+    margin: -70px 0 0px 22px;
+  }
+  .imh {
+    width: 310px;
+    height: 250px;
+  }
+  .box-list {
+    display: block;
+  }
+  .shush{
+    margin: 10px 25px 14px 0px;
+  }
+  .shop
+  {margin: 0px 0 0 -20px;
+  }
+  .gstart {
+    margin: 0;
+  }
+  .gstart a{
+    margin-left: 84px;
+  }
+  .box9{
+    display: block;
+  }
+  .partner1{
+    margin: 0;
+    width: 43vh;
+    margin-top: 35px;
+  }
+  .box10{
+    margin: 0;
+  }
+  .subs{
+    margin-top: 35px;
+  }
+  .box11{
+    display: block;
+  }
+  .phone-number{
+    width: 200%;
+  }
+  .address{
+    width: 200%; 
+  }
+  .address-icon{
+    font-size: 350%;
+  }
+  .email{
+    margin: 0;
+    margin-top: 0px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .working-hour{
+    margin-top: 40px ;
+  }
+  .subs {
+    margin-top: 20px;
+  }
+}
+@media (min-width:768px) and (max-width:992px){
+  .container-fluid{
+    position: relative;
+  }
+  .navbar{
+    display: block;
+  }
+  .navigation{
+    margin: 0 0 0 175px;
+  }
+  .navigation-icons{
+   margin: 30px 0px 0 330px;
+  }
+  .start {
+    margin: 30px 321px 30px 318px;
+  }
+  .box1-head{
+    width: 50%;
+    font-size: 20px;
+  }
+  .box1-img{
+    width: 50%;
+  }
+  .lnk{
+    width: 51%;
+    padding: 3px;
+  }
+  .box1-img img{
+    width: 100%;
+  }
+  .smallbox2 p{
+    margin-bottom: 100px;
+  }
+  .smallbox3 p{
+    margin: 0 0 -35px 0;
+  }
+  .box4{
+    display: block;
+  }
+  .kit{
+    margin: 32px 0 0 0;
+  }
+  .illustration-tool{
+    width: 100%;
+    height: 53vh;
+  }
+  .illustration-tool img{
+    width: 99%;
+  }
+  .pr{
+    margin: -48px 0 0 610px;
+  }
+  .digital-art{
+    width: 100%;
+    height: 53vh;
+  }
+  .digital-art img{
+    width: 99%;
+  }
+  .pri{
+    margin: -48px 0 0 610px;
+  }
+  .print-design{
+    width: 100%;
+    height: 53vh;
+  }
+  .print-design img{
+    width: 99%;
+  }
+  .pri{
+    margin: -48px 0 0 610px;
+  }
+  .team1{
+    height: 42vh;
+  }
+  .manager{
+    width: 30%;
+    height: 368px;
+    font-size: 15px;
+    margin: 0 36px 0 0;
+  }
+  .manager img{
+    width: 208px;
+    height: 170px;
+  }
+  .box-img img{
+    margin: 0 0 0 228px;
+  }
+  .imh{
+    width: 100%;
+  }
+  .lin{
+    margin: 0 0 0 0;
+    width: 50%;
+  }
+  .shop{
+    margin: 0 20px 0 0;
+  }
+  .gstart{
+    margin: 40px 0 0 140px;
+  }
+  .box9{
+    margin: 0 0 0 -16px;
+  }
+  .partner1 img{
+    width: 96%;
+    margin: 22px 0 0 0;
+  }
+  .box10{
+    margin: 0;
+  }
+  
+  .phone-number{
+    width: 40vh;
+  }
+  .address{
+    width: 40vh;
+  }
+  .email{
+    margin: 0 0 0 73px;
+  }
+}
